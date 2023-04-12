@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background-image: url("./Resources/pokeBG.png");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container-true {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42.5vh;
+}
+
+.container-false {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 200%;
+}
+
+.btn-circle.btn-xl {
+  width: 11.5%;
+  height: 48%;
+  padding: 10px 16px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 90%;
+  line-height: 1.33;
+  position: relative;
+  bottom: -6%;
+}
+
+.btn-circle.btn-xl-false {
+  width: 14%;
+  height: 20.7%;
+  padding: 10px 16px;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 100%;
+  line-height: 1.33;
+  position: relative;
+  bottom: 6.6%;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 15px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokeimgs {
+  margin-left: 15%;
+}
