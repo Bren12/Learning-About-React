@@ -13,5 +13,6 @@ Interactive web app built with React that fetches data from the PokéAPI. When t
 
 ## Files Description
 
-📁 practica-react
+### 📁 practica-react
+
 Main project folder containing all necessary files to run the React app.
